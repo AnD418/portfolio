@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.bg{
+    background: linear-gradient(to right, #0575E6, #00F260);
+}
+.navbar{
+    display: flex;
+    top: 0;
+    background-blend-mode: darken;
+    position: sticky;
+}
+.logo{
+    align-self: center;
+}
+.list{
+    display: flex;
+    
+
+}
+.list li{
+    margin: 10px;
+    padding: 10px;
+    list-style: none;
+    text-decoration: none;
+
+}
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+.list li a:hover{
+    color: rgb(0, 255, 255);
+}
+.hireme{
+    /* justify-content: flex-end; */
+    margin: 10px;
+    margin-left: auto;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px;
+    background-color: cyan;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
