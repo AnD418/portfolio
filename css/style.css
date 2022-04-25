@@ -4,19 +4,28 @@
     
 }
 .bg{
-    background: linear-gradient(to right, #0575E6, #00F260);
+    /* background: linear-gradient(to right, #0575E6, #00F260); */
+    /* background-image: url(); */
 }
 .navbar{
     display: flex;
-    top: 0;
-    background-blend-mode: darken;
-    position: sticky;
+    flex-direction: column;
+    width: 25%;
+    /* top: 0;
+    position: sticky; */
+}
+.img1{
+    align-self: auto;
 }
 .logo{
-    align-self: center;
+    border: 5px solid black;
+    border-radius: 100px;
+    max-width: 40%;
+
 }
 .list{
     display: flex;
+    flex-direction: column;
     
 
 }
