@@ -11,8 +11,6 @@
 .header{
     display: flex;
     flex-direction: column;
-    border: 0 !important;
-    border-radius: 0 !important;
     margin: 0;
     width: 300px;
     padding: 0 15px;
@@ -20,6 +18,8 @@
     top: 0;
     position: fixed !important;
     height: 100% !important;
+    border: 0 !important;
+    border-radius: 0 !important;
 }
 .img1{
     display: flex;
@@ -79,7 +79,7 @@
     /* position: absolute; */
     right: 0;
     width: 1349px;
-    height: 650px;
+    height: 600px;
     margin-left: 300px;
 
 }
@@ -114,11 +114,35 @@
 .about{
     padding: 60px 0;
     overflow: hidden;
+    /* margin: 0 300px; */
 }
+.blank{
+    color: rgb(0, 255, 255);
+    border: 2px solid;
+    width: 126px;
+    margin-top: 0;
+}
+.about_info{
+    /* display: flex; */
+    width: 66.7%;
+}
+.row{
+    display: flex;
+}
+.container img{
+    width: 33.33%;
+    margin: 10px;
+    border-radius: 50px;
 
+    /* width: 50%; */
+    /* margin: 10px; */
+}
+.heading{
+    font-size: 26px;
+    font-weight: 700;
+    color: #173b6c;
+}
+#main{
+    margin-left: 300px;
 
-
-
-
-
-
+}
