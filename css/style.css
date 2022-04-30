@@ -8,7 +8,7 @@
     /* background-image: url(); */
     background-color: black;
 }
-.navbar{
+.header{
     display: flex;
     flex-direction: column;
     border: 0 !important;
@@ -76,17 +76,21 @@
 .home{
     display: block;
     /* border: 2px solid red; */
-    position: absolute;
+    /* position: absolute; */
     right: 0;
-    width: 1066px;
-    height: 1000px;
+    width: 1349px;
+    height: 650px;
+    margin-left: 300px;
 
 }
 .bg-hero{
-    background: rgba(0, 0, 0, 0.7) url(../img/hero-bg.jpg);
-    background-size: 1065px;
+    background: rgba(0, 0, 0, 0.4) url(../img/hero-bg.jpg);
+    /* background-size: cover; */
+    background-blend-mode: darken;
+    background-size: cover;
     background-repeat: no-repeat;
-    position: fixed;
+    background-attachment: fixed;
+    /*position: fixed;*/
     overflow: hidden;
     z-index: -1;
 }
@@ -105,6 +109,11 @@
     margin-left: 6vw;
     z-index: 4;
     color: ghostwhite;
+}
+
+.about{
+    padding: 60px 0;
+    overflow: hidden;
 }
 
 
