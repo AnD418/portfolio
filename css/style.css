@@ -1,79 +1,85 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    
+    overflow-x: hidden;
 }
-.bg{
+.bg {
     /* background: linear-gradient(to right, #0575E6, #00F260); */
     /* background-image: url(); */
     background-color: black;
 }
-.header{
+
+.header {
     display: flex;
     flex-direction: column;
     margin: 0;
     width: 300px;
     padding: 0 15px;
-    bottom: 0;
+    padding-bottom: 20px;
+    /*bottom: 0;*/
     top: 0;
     position: fixed !important;
     height: 100% !important;
     border: 0 !important;
     border-radius: 0 !important;
 }
-.img1{
+
+.img1 {
     display: flex;
     /* height: max-content; */
     justify-content: center;
     /* height: ; */
 }
-.logo{
+
+.logo {
     border: 10px solid rgb(56, 54, 54);
     border-radius: 100px;
     max-width: 100%;
     height: 150px;
     margin-top: 10px;
-
 }
-.name{
+.name {
     color: white;
     display: flex;
     justify-content: center;
+    margin: 0 !important;
     padding: 10px;
 }
-.list{
+.list {
     display: flex;
     flex-direction: column;
-    
-    
-
 }
-.list li{
-    margin: 20px;
+.list li {
+    margin: 12px;
     padding: 15px;
     list-style: none;
     text-decoration: none;
     /* color: white; */
-
 }
-.list li a{
+.list li a {
     text-decoration: none;
     color: white;
 }
-.list li a:hover{
+.list li a:hover {
     color: rgb(0, 255, 255);
 }
-.hireme{
+.hireme {
     /* justify-content: flex-end; */
-    margin: 10px;
-    margin-left: auto;
+    margin: 0px;
+    margin-left: 20px!important;
     padding: 10px;
-    border: 0px;
+    border: 2px solid rgb(0, 255, 255);
     border-radius: 20px;
-    background-color: cyan;
-    font-weight: 600;
+    background-color: rgb(0, 255, 255);
+    font-weight: 900;
+    cursor: pointer;
 }
-.home{
+.hireme:hover{
+    background-color: white;
+    border: 2px solid rgb(0, 255, 255);
+    color: rgb(0, 255, 255);
+}
+.home {
     display: block;
     /* border: 2px solid red; */
     /* position: absolute; */
@@ -81,9 +87,8 @@
     width: 1349px;
     height: 600px;
     margin-left: 300px;
-
 }
-.bg-hero{
+.bg-hero {
     background: rgba(0, 0, 0, 0.4) url(../img/hero-bg.jpg);
     /* background-size: cover; */
     background-blend-mode: darken;
@@ -94,7 +99,7 @@
     overflow: hidden;
     z-index: -1;
 }
-.self{
+.self {
     /* these are just some things i tried */
     /* position: absolute;
     justify-content: center;
@@ -110,39 +115,53 @@
     z-index: 4;
     color: ghostwhite;
 }
-
-.about{
+.about {
     padding: 60px 0;
-    overflow: hidden;
-    /* margin: 0 300px; */
+    width: 1048px;
+    
+    /* margin: 0 300px; */   
 }
-.blank{
+.blank {
     color: rgb(0, 255, 255);
     border: 2px solid;
     width: 126px;
     margin-top: 0;
 }
-.about_info{
+.about_info {
     /* display: flex; */
     width: 66.7%;
 }
-.row{
+.row {
     display: flex;
 }
-.container img{
+.container{
+    width: 1064px !important;
+}
+.container img {
     width: 33.33%;
     margin: 10px;
     border-radius: 50px;
-
     /* width: 50%; */
     /* margin: 10px; */
 }
-.heading{
+.heading {
     font-size: 26px;
     font-weight: 700;
     color: #173b6c;
 }
-#main{
+#main {
     margin-left: 300px;
 
+}
+.about_lists{
+    display: flex;
+
+}
+.about_list{
+    width: 50%;
+    list-style: none;
+    font-size: medium;
+}
+.about_list li{
+    margin: 10px;
 }
